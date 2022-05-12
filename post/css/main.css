@@ -1,0 +1,41 @@
+/* ========== blog-post ========== */
+
+.blog-post__container {
+  padding-bottom: 0;
+}
+
+.blog-post__date {
+  margin-bottom: 48px;
+}
+
+.blog-post__img-wrap {
+  margin-bottom: 48px;
+}
+
+/* ========== post ========== */
+
+.post__container {
+  padding-bottom: 132px;
+}
+
+.post__body {
+  margin: 0 auto;
+  max-width: 842px;
+}
+
+.post__heading {
+  margin-bottom: 32px;
+}
+
+.post__paragraph {
+  margin-bottom: 32px;
+}
+
+.post__list {
+  margin: 0 0 32px;
+  padding-left: 20px;
+}
+
+.post__img {
+  margin-bottom: 32px;
+}

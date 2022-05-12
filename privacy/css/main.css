@@ -1,0 +1,44 @@
+/* ========== privacy ========== */
+
+.privacy__container {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.privacy__heading {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.privacy__paragraph {
+  margin: 0 auto 64px;
+  max-width: 562px;
+  text-align: center;
+}
+
+.content-privacy__heading {
+  margin-bottom: 32px;
+}
+
+.privacy__content {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 842px;
+}
+
+.privacy__content:not(:last-of-type) {
+  margin-bottom: 40px;
+}
+
+.content-privacy__paragraph:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.content-privacy__list {
+  margin: 0 0 16px;
+  padding-left: 15px;
+}
+
+.list-content-privacy__item:not(:last-child) {
+  margin-bottom: 12px;
+}

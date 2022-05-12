@@ -1,0 +1,112 @@
+/* ========== hero ========== */
+
+.hero-feature__container {
+  padding-top: 168px;
+  padding-bottom: 164px;
+  background-image: url('../img/hero/bg-1.svg');
+  background-position: right 50px center;
+}
+
+.hero-feature__body {
+  max-width: 522px;
+}
+
+.hero-feature__heading {
+  margin-bottom: 32px;
+}
+
+.hero-feature__paragraph {
+  margin-bottom: 32px;
+}
+
+.hero-feature__view-our-work {
+  padding: .9em 2.5em;
+}
+
+/* ========== benefit-feature ========== */
+
+.benefit-feature__container {
+  padding-top: 96px;
+  padding-bottom: 0;
+}
+
+.benefit-feature__logo {
+  margin-bottom: 96px;
+}
+
+.benefit-feature__grid {
+  margin-bottom: 0;
+}
+
+/* ========== feature ========== */
+
+.list-capability__item--grey {
+  background: var( --color-grey );
+}
+
+.list-capability__item--yellow {
+  background: rgba(252, 217, 128, .1);
+}
+
+.capability__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.list-capability__img-wrap {
+  flex-shrink: 0;
+  height: 398px;
+  width: 575px;
+  background: no-repeat center / center
+}
+
+.capability__img-wrap--left {
+  margin-right: 20px;
+}
+
+.list-capability__img-wrap--1 {
+  background-image: url("../img/capability/bg-1@1x.jpg");
+  background-image: -webkit-image-set( url("../img/capability/bg-1@1x.jpg") 1x, url("../img/capability/bg-1@2x.jpg") 2x );
+  background-image: image-set( "../img/capability/bg-1@1x.jpg" 1x, "../img/capability/bg-1@2x.jpg" 2x );
+}
+
+.list-capability__img-wrap--2 {
+  background-image: url("../img/capability/bg-2@1x.jpg");
+  background-image: -webkit-image-set( url("../img/capability/bg-2@1x.jpg") 1x, url("../img/capability/bg-2@2x.jpg") 2x );
+  background-image: image-set( "../img/capability/bg-2@1x.jpg" 1x, "../img/capability/bg-2@2x.jpg" 2x );
+}
+
+.list-capability__img-wrap--3 {
+  background-image: url("../img/capability/bg-3@1x.jpg");
+  background-image: -webkit-image-set( url("../img/capability/bg-3@1x.jpg") 1x, url("../img/capability/bg-3@2x.jpg") 2x );
+  background-image: image-set( "../img/capability/bg-3@1x.jpg" 1x, "../img/capability/bg-3@2x.jpg" 2x );
+}
+
+.list-capability__img-wrap--4 {
+  background-image: url("../img/capability/bg-4@1x.jpg");
+  background-image: -webkit-image-set( url("../img/capability/bg-4@1x.jpg") 1x, url("../img/capability/bg-4@2x.jpg") 2x );
+  background-image: image-set( "../img/capability/bg-4@1x.jpg" 1x, "../img/capability/bg-4@2x.jpg" 2x );
+}
+
+.list-capability__body {
+  flex-basis: 618px;
+}
+
+.list-capability__body--left {
+  margin-right: 20px;
+}
+
+.list-capability__tag, 
+.list-capability__heading {
+  margin-bottom: 16px;
+}
+
+/* ========== faq-feature ========== */
+
+.faq-feature__container {
+  padding-top: 106px;
+  padding-bottom: 99px;
+}

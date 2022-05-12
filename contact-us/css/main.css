@@ -1,0 +1,73 @@
+/* ========== contact-us ========== */
+
+.contact-us__container {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.contact-us__heading {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.contact-us__paragraph {
+  margin: 0 auto 64px;
+  max-width: 562px;
+  text-align: center;
+}
+
+.contact-us__form {
+  border-radius: 12px;
+  margin: auto;
+  padding: 55px 77px 70px;
+  max-width: 1060px;
+  background: var( --color-grey );
+}
+
+.form-contact-us__wrap {
+  grid-gap: 24px 32px;
+  margin-bottom: 16px;
+}
+
+.form-contact-us__label {
+  margin-bottom: 6px;
+}
+
+.from-contact-us__input {
+  display: block;
+  width: 100%;
+}
+
+.form-contact-us__message {
+  margin-bottom: 28px;
+  min-height: 138px;
+  resize: none;
+}
+
+.contact-us__button {
+  min-width: 254px;
+}
+
+.choices::after {
+  content: none !important;
+}
+
+.choices__inner {
+  border: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 8px;
+  padding: 18px 32px !important;
+  background: var( --color-grey );
+}
+
+.choices__list {
+  padding: 0;
+}
+
+.choices__item {
+  font: 400 1rem/1.75 'Poppins', sans-serif;
+  color: #000;
+}
+
+.choices__placeholder {
+  opacity: 1;
+}
